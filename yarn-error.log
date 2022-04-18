@@ -1,0 +1,78 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe F:\Downloads\bin\yarn.js add -D @types/styled-conponents
+
+PATH: 
+  F:\Meus Documentos\vendor\conemu-maximus5\ConEmu\Scripts;F:\Meus Documentos\vendor\conemu-maximus5;F:\Meus Documentos\vendor\conemu-maximus5\ConEmu;C:\app\Pichau\product\21c\dbhomeXE\bin;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;F:\Arquivos de Programas\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\mongoDB\bin;F:\Downloads\bin\;C:\Users\Pichau\AppData\Local\Microsoft\WindowsApps;C:\Users\Pichau\.dotnet\tools;F:\Downloads\Microsoft VS Code\bin;C:\Users\Pichau\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\3.4\bin\;C:\Users\Pichau\AppData\Local\Yarn\bin;F:\Arquivos de Programas\Git\mingw64\bin;F:\Arquivos de Programas\Git\usr\bin;F:\Meus Documentos\vendor\bin;F:\Meus Documentos
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@types%2fstyled-conponents: Not found
+      at Request.params.callback [as _callback] (F:\Downloads\lib\cli.js:66138:18)
+      at Request.self.callback (F:\Downloads\lib\cli.js:140883:22)
+      at Request.emit (node:events:520:28)
+      at Request.<anonymous> (F:\Downloads\lib\cli.js:141855:10)
+      at Request.emit (node:events:520:28)
+      at IncomingMessage.<anonymous> (F:\Downloads\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:639:28)
+      at IncomingMessage.emit (node:events:532:35)
+      at endReadableNT (node:internal/streams/readable:1346:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "clone-tesla",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.16.4",
+      "@testing-library/react": "^12.1.4",
+      "@testing-library/user-event": "^13.5.0",
+      "@types/jest": "^27.4.1",
+      "@types/node": "^16.11.26",
+      "@types/react": "^17.0.43",
+      "@types/react-dom": "^17.0.14",
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0",
+      "react-scripts": "5.0.0",
+      "typescript": "^4.6.3",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
